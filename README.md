@@ -12,6 +12,10 @@ The C2 communications occur through GET & POST requests to two endpoints, `/comm
 - The operator can retrieve the results of the instruction using GET requests to the `/results` endpoint.
 - This setup allows for a simulated shell experience, with the `/commands` and `/results` endpoints working together seamlessly to facilitate post-exploitation capabilities.
 
+![img](img/2ec3b57edee929ab0ea1a9ca0138e4ac.png)
+
+![img](img/af7703f0bad57a49c69912ee1a067422.png)
+
 Tested against **Ubuntu 22.04.2**
 
 ## AV Evasion & Notes
