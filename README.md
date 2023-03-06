@@ -23,6 +23,7 @@ PyHTTPShell was not created with the intention of stealthiness, many of it's fea
 
 ## Disclaimer
 AV evasion techniques will be added at a later date, but the concept of this POC is not sound for evasive purposes and should not be expected to be used for such.
+Post-exploit capabilities as well as custom commands not implemented yet, will be done soon!
 
 It is important to note that this system is terrible for being stealthy, and not meant to be used in actual red-team operations. 
 
