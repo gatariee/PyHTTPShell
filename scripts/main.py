@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import requests
 import time
 import socket
@@ -54,7 +56,7 @@ class ShellClient:
     # SORRY FOR THE STATIC METHODS LOL
     @staticmethod
     def fake_attempt():
-        print(colored(f"[*] Attempting Connection...", 'white', attrs=['bold']))
+        print(colored("[*] Attempting Connection...", 'white', attrs=['bold']))
 
 
     def update_prompt(self):
@@ -129,8 +131,8 @@ class ShellClient:
             elif choice == "2":
                 break
 
-
-
 if __name__ == "__main__":
     client = ShellClient()
     client.run()
+
+print("a")
