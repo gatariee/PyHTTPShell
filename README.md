@@ -4,6 +4,9 @@ A python-based reverse shell generator and handler that communicates over HTTP f
 ## How it works
 C2 communications utilizes HTTP(s) protocols, allowing the operator and agent to connect through a beacon and simulate a shell (well, pseudo-shell).
 
+![img](img/2ec3b57edee929ab0ea1a9ca0138e4ac.png)
+![img](img/af7703f0bad57a49c69912ee1a067422.png)
+
 The C2 communications occur through GET & POST requests to two endpoints, `/commands` and `/results` hosted on the beacon.
 
 - The agent establishes a persistent connection to the `/commands` endpoint, awaiting instructions via GET requests every 1 second.
@@ -11,9 +14,6 @@ The C2 communications occur through GET & POST requests to two endpoints, `/comm
 - The agent executes the received instructions and POST results to the `/results` endpoint.
 - The operator can retrieve the results of the instruction using GET requests to the `/results` endpoint.
 - This setup allows for a simulated shell experience, with the `/commands` and `/results` endpoints working together seamlessly to facilitate post-exploitation capabilities.
-
-![img](img/2ec3b57edee929ab0ea1a9ca0138e4ac.png)
-![img](img/af7703f0bad57a49c69912ee1a067422.png)
 
 Tested against **Ubuntu 22.04.2**
 
