@@ -32,9 +32,9 @@ This tool is intended for educational and testing purposes only. You should not 
 
 todo:
 - custom commands (list all running processes, etc)
-- __callback beacon to indicate live status__
+- ~~callback beacon to indicate live status~~
 - invoke linpeas
-- __improve ui__
+- ~~improve ui~~
 
 ## Credits
 This project is a recreation of [hoaxshell](https://github.com/t3l3machus/hoaxshell) for educational and learning purposes, all credit goes to the creators of hoaxshell for their amazing project.
