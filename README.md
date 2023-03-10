@@ -1,5 +1,5 @@
 # PyHTTPShell
-A python-based reverse shell generator and handler that communicates over HTTP for Command and Control (C2) that currently only has support for linux distros
+A python-based reverse shell generator and handler that communicates over HTTP for Command and Control (C2) that currently only has support for linux distributions
 ## How it works
 C2 communications utilizes HTTP(s) protocols, allowing the operator and agent to connect through a beacon and simulate a shell (well, pseudo-shell).
 
